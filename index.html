@@ -1,169 +1,75 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" dir="ltr">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#05070b">
-  <meta name="description" content="AL THAGHR TECHLAB — Student Technology & Innovation Lab">
-  <title>AL THAGHR TECHLAB</title>
-  
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#0b2341">
+  <meta name="description" content="ATTL — AL THAGHR TECHLAB student technology and innovation community.">
+  <title>ATTL — AL THAGHR TECHLAB</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@400;500;600;700;800&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="ambient ambient-one"></div>
-  <div class="ambient ambient-two"></div>
+<header class="site-header">
+  <a class="brand" href="#home"><span class="brand-mark">ATTL</span><span class="brand-text">AL THAGHR<br><b>TECHLAB</b></span></a>
+  <button class="menu-toggle" aria-label="Menu" aria-expanded="false">☰</button>
+  <nav class="nav">
+    <a href="#home" data-en="Home" data-ar="الرئيسية">Home</a>
+    <a href="#about" data-en="About" data-ar="عنّا">About</a>
+    <a href="#team" data-en="Team" data-ar="الفريق">Team</a>
+    <a href="#tracks" data-en="Tracks" data-ar="المسارات">Tracks</a>
+    <a href="#projects" data-en="Projects" data-ar="المشاريع">Projects</a>
+    <a href="#events" data-en="Events" data-ar="الفعاليات">Events</a>
+    <a href="#achievements" data-en="Achievements" data-ar="الإنجازات">Achievements</a>
+    <a href="#news" data-en="News" data-ar="الأخبار">News</a>
+    <a class="nav-cta" href="#join" data-en="Join Us" data-ar="انضم إلينا">Join Us</a>
+    <button id="lang-toggle" class="lang" type="button">العربية</button>
+  </nav>
+</header>
 
-  <header class="navbar">
-    <a class="brand" href="#" aria-label="AL THAGHR TECHLAB">
-      <span class="brand-mark">ATTL</span>
-      <span class="brand-name">AL THAGHR<br><b>TECHLAB</b></span>
-    </a>
+<main>
+<section id="home" class="hero page-section">
+  <div class="hero-grid"></div><div class="glow"></div>
+  <div class="hero-copy">
+    <span class="eyebrow" data-en="STUDENT TECHNOLOGY & INNOVATION LAB" data-ar="معمل التكنولوجيا والابتكار الطلابي">STUDENT TECHNOLOGY & INNOVATION LAB</span>
+    <h1 data-en="Learn.<br><span>Build.</span><br>Innovate." data-ar="تعلّم.<br><span>ابنِ.</span><br>ابتكر.">Learn.<br><span>Build.</span><br>Innovate.</h1>
+    <p data-en="A student-led technology community at Al Thaghr, turning curiosity into skills, projects and real-world impact." data-ar="مجتمع تكنولوجي طلابي في الثغر، بنحوّل الفضول لمهارات ومشاريع وتأثير حقيقي.">A student-led technology community at Al Thaghr, turning curiosity into skills, projects and real-world impact.</p>
+    <div class="actions"><a class="btn primary" href="#join" data-en="Join TechLab" data-ar="انضم إلى TechLab">Join TechLab</a><a class="btn ghost" href="#tracks" data-en="Explore Tracks" data-ar="استكشف المسارات">Explore Tracks</a></div>
+    <div class="hero-meta"><span>● <i data-en="Student-led" data-ar="بقيادة الطلاب">Student-led</i></span><span>● <i data-en="Practical learning" data-ar="تعلم عملي">Practical learning</i></span><span>● <i data-en="Real projects" data-ar="مشاريع حقيقية">Real projects</i></span></div>
+  </div>
+  <div class="hero-card"><div class="hero-logo">ATTL</div><div class="hero-name">AL THAGHR<br><b>TECHLAB</b></div><div class="hero-line"></div><small data-en="TECHNOLOGY • INNOVATION • IMPACT" data-ar="تكنولوجيا • ابتكار • تأثير">TECHNOLOGY • INNOVATION • IMPACT</small></div>
+</section>
 
-    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+<section class="stats"><div><b>07</b><span data-en="Technology Tracks" data-ar="مسارات تقنية">Technology Tracks</span></div><div><b>∞</b><span data-en="Ideas to Build" data-ar="أفكار قابلة للتنفيذ">Ideas to Build</span></div><div><b>01</b><span data-en="Student Community" data-ar="مجتمع طلابي">Student Community</span></div><div><b>100%</b><span data-en="Practical Learning" data-ar="تعلم عملي">Practical Learning</span></div></section>
 
-    <nav class="nav-links">
-      <a href="#about" data-en="About" data-ar="عن TechLab">About</a>
-      <a href="#tracks" data-en="Tracks" data-ar="المسارات">Tracks</a>
-      <a href="#projects" data-en="Projects" data-ar="المشاريع">Projects</a>
-      <a href="#events" data-en="Events" data-ar="الفعاليات">Events</a>
-      <a href="#join" class="nav-cta" data-en="Join TechLab" data-ar="انضم إلى TechLab">Join TechLab</a>
-      <button id="lang-toggle" class="lang-toggle" type="button">العربية</button>
-    </nav>
-  </header>
+<section id="about" class="section page-section"><div class="section-no">01 / ABOUT</div><div class="split"><div><span class="kicker" data-en="THE IDEA BEHIND ATTL" data-ar="فكرة ATTL">THE IDEA BEHIND ATTL</span><h2 data-en="Where students<br><span>build technology.</span>" data-ar="هنا الطلاب<br><span>بيصنعوا التكنولوجيا.</span>">Where students<br><span>build technology.</span></h2></div><div class="text"><p data-en="AL THAGHR TECHLAB is a student technology community focused on practical learning, collaboration, innovation and student-led projects." data-ar="AL THAGHR TECHLAB هو مجتمع تكنولوجي طلابي بيركز على التعلم العملي، التعاون، الابتكار والمشاريع اللي بيقودها الطلاب.">AL THAGHR TECHLAB is a student technology community focused on practical learning, collaboration, innovation and student-led projects.</p><div class="feature-row"><span>01<br><b data-en="Learn" data-ar="تعلّم">Learn</b></span><span>02<br><b data-en="Build" data-ar="ابنِ">Build</b></span><span>03<br><b data-en="Lead" data-ar="قُد">Lead</b></span></div></div></div></section>
 
-  <main>
-    <section class="hero">
-      <div class="hero-orb orb-a"></div>
-      <div class="hero-orb orb-b"></div>
-      <div class="hero-grid"></div>
+<section id="team" class="section page-section"><div class="section-no">02 / TEAM</div><div class="section-head"><div><span class="kicker" data-en="PEOPLE BEHIND THE LAB" data-ar="الأشخاص وراء المعمل">PEOPLE BEHIND THE LAB</span><h2 data-en="A team built<br><span>to build teams.</span>" data-ar="فريق هدفه<br><span>يبني فرق.</span>">A team built<br><span>to build teams.</span></h2></div><p data-en="Leadership, trainers and members work together around one mission: make technology practical and accessible." data-ar="القيادة والمدربين والأعضاء بيشتغلوا مع بعض لهدف واحد: نخلي التكنولوجيا عملية ومتاحة.">Leadership, trainers and members work together around one mission: make technology practical and accessible.</p></div><div class="cards team-grid"><article class="card profile"><span class="avatar">GL</span><small>LEADERSHIP</small><h3 data-en="General Leader" data-ar="القائد العام">General Leader</h3><p data-en="Vision, coordination and community direction." data-ar="الرؤية والتنسيق وتوجيه المجتمع.">Vision, coordination and community direction.</p></article><article class="card profile"><span class="avatar">DH</span><small>DEPARTMENT</small><h3 data-en="Department Head" data-ar="رئيس قسم">Department Head</h3><p data-en="Owns a technology track and its roadmap." data-ar="مسؤول عن مسار تقني وخطته.">Owns a technology track and its roadmap.</p></article><article class="card profile"><span class="avatar">TR</span><small>EDUCATION</small><h3 data-en="Trainer" data-ar="مدرب">Trainer</h3><p data-en="Turns knowledge into practical sessions." data-ar="بيحوّل المعرفة لتدريبات عملية.">Turns knowledge into practical sessions.</p></article><article class="card profile"><span class="avatar">MB</span><small>COMMUNITY</small><h3 data-en="Member" data-ar="عضو">Member</h3><p data-en="Learns, builds, contributes and leads." data-ar="بيتعلم ويبني ويشارك ويقود.">Learns, builds, contributes and leads.</p></article></div></section>
 
-      <div class="hero-content">
-        <div class="eyebrow glass-pill" data-en="STUDENT TECHNOLOGY & INNOVATION LAB" data-ar="معمل التكنولوجيا والابتكار الطلابي">STUDENT TECHNOLOGY & INNOVATION LAB</div>
+<section id="tracks" class="section page-section"><div class="section-no">03 / TRACKS</div><div class="section-head"><div><span class="kicker" data-en="FIND YOUR LANE" data-ar="اختار مسارك">FIND YOUR LANE</span><h2 data-en="Choose your<br><span>technology.</span>" data-ar="اختار<br><span>مجالك التقني.</span>">Choose your<br><span>technology.</span></h2></div><p data-en="Start with one track. Build across all of them." data-ar="ابدأ بمسار واحد، وابني خبرتك خطوة بخطوة عبر باقي المسارات.">Start with one track. Build across all of them.</p></div><div class="track-grid">
+  <article class="track"><b>01 / AI</b><h3 data-en="AI & ML" data-ar="الذكاء الاصطناعي">AI & ML</h3><p data-en="Artificial Intelligence, Machine Learning, LLMs and prompt engineering." data-ar="الذكاء الاصطناعي وتعلم الآلة والنماذج اللغوية وهندسة الأوامر.">Artificial Intelligence, Machine Learning, LLMs and prompt engineering.</p></article>
+  <article class="track"><b>02 / CODE</b><h3 data-en="Software" data-ar="البرمجيات">Software</h3><p data-en="Programming, algorithms, data structures and software engineering." data-ar="البرمجة والخوارزميات وهياكل البيانات وهندسة البرمجيات.">Programming, algorithms, data structures and software engineering.</p></article>
+  <article class="track"><b>03 / WEB</b><h3 data-en="Web Development" data-ar="تطوير الويب">Web Development</h3><p data-en="Frontend, backend, APIs and full-stack products." data-ar="الواجهات والخلفيات وواجهات API ومنتجات Full Stack.">Frontend, backend, APIs and full-stack products.</p></article>
+  <article class="track"><b>04 / SEC</b><h3 data-en="Cybersecurity" data-ar="الأمن السيبراني">Cybersecurity</h3><p data-en="Security fundamentals, networking and digital awareness." data-ar="أساسيات الأمن والشبكات والتوعية الرقمية.">Security fundamentals, networking and digital awareness.</p></article>
+  <article class="track"><b>05 / UX</b><h3 data-en="Design & Media" data-ar="التصميم والإعلام">Design & Media</h3><p data-en="UI/UX, graphic design, branding and digital content." data-ar="UI/UX والتصميم الجرافيكي والهوية والمحتوى الرقمي.">UI/UX, graphic design, branding and digital content.</p></article>
+  <article class="track"><b>06 / IOT</b><h3 data-en="Robotics" data-ar="الروبوتات">Robotics</h3><p data-en="Robotics, electronics, IoT, automation and prototyping." data-ar="الروبوتات والإلكترونيات وإنترنت الأشياء والأتمتة والنماذج الأولية.">Robotics, electronics, IoT, automation and prototyping.</p></article>
+  <article class="track wide"><b>07 / IDEAS</b><h3 data-en="Innovation" data-ar="الابتكار">Innovation</h3><p data-en="Ideas, entrepreneurship, problem solving and real-world solutions." data-ar="الأفكار وريادة الأعمال وحل المشكلات والحلول الواقعية.">Ideas, entrepreneurship, problem solving and real-world solutions.</p></article>
+</div></section>
 
-        <h1 data-en="Learn.<br><span>Build.</span><br>Innovate." data-ar="تعلّم.<br><span>ابنِ.</span><br>ابتكر.">Learn.<br><span>Build.</span><br>Innovate.</h1>
+<section id="projects" class="section dark page-section"><div class="section-no">04 / PROJECTS</div><div class="section-head"><div><span class="kicker">FROM IDEA TO IMPACT</span><h2 data-en="Ideas become<br><span>real projects.</span>" data-ar="الأفكار بتتحول لـ<br><span>مشاريع حقيقية.</span>">Ideas become<br><span>real projects.</span></h2></div><p data-en="A showcase for student products, team projects, challenges and Demo Days." data-ar="مساحة لعرض منتجات الطلاب ومشاريع الفرق والتحديات وأيام العرض.">A showcase for student products, team projects, challenges and Demo Days.</p></div><div class="project-grid"><article class="project-card"><span>PROJECT 001</span><h3>AI Study Buddy</h3><p data-en="An AI-powered study assistant built as a practical student project." data-ar="مساعد مذاكرة بالذكاء الاصطناعي كمشروع طلابي عملي.">An AI-powered study assistant built as a practical student project.</p><a href="#join">↗</a></article><article class="project-card"><span>PROJECT 002</span><h3>TechLab Hub</h3><p data-en="A digital home for tracks, teams, events and achievements." data-ar="منصة رقمية للمسارات والفرق والفعاليات والإنجازات.">A digital home for tracks, teams, events and achievements.</p><a href="#join">↗</a></article><article class="project-card placeholder"><span>COMING NEXT</span><h3 data-en="Your project." data-ar="مشروعك.">Your project.</h3><p data-en="Build something worth showing." data-ar="ابنِ حاجة تستاهل تتعرض.">Build something worth showing.</p></article></div></section>
 
-        <p data-en="A student-led technology community at Al Thaghr, built to turn curiosity into skills, projects and real-world impact."
-           data-ar="مجتمع تكنولوجي طلابي في مدرسة الثغر، بنحوّل فيه الفضول لمهارات ومشاريع وتأثير حقيقي.">
-          A student-led technology community at Al Thaghr, built to turn curiosity into skills, projects and real-world impact.
-        </p>
+<section id="events" class="section page-section"><div class="section-no">05 / EVENTS</div><div class="event"><div><span class="kicker" data-en="LEARN TOGETHER" data-ar="نتعلم سوا">LEARN TOGETHER</span><h2 data-en="Trainings. Workshops.<br><span>Challenges.</span>" data-ar="تدريبات. ورش عمل.<br><span>تحديات.</span>">Trainings. Workshops.<br><span>Challenges.</span></h2><p data-en="One place for registration, schedules, attendance, tasks and certificates." data-ar="مكان واحد للتسجيل والجداول والحضور والمهام والشهادات.">One place for registration, schedules, attendance, tasks and certificates.</p></div><div class="event-badge">ATTL<br><small>EVENTS</small></div></div></section>
 
-        <div class="hero-actions">
-          <a class="btn primary" href="#join" data-en="Join TechLab" data-ar="انضم إلى TechLab">Join TechLab</a>
-          <a class="btn secondary" href="#tracks" data-en="Explore Tracks" data-ar="استكشف المسارات">Explore Tracks</a>
-        </div>
+<section id="achievements" class="section page-section"><div class="section-no">06 / ACHIEVEMENTS</div><div class="section-head"><div><span class="kicker" data-en="PROGRESS MATTERS" data-ar="الإنجاز مهم">PROGRESS MATTERS</span><h2 data-en="Celebrate the<br><span>work.</span>" data-ar="نحتفل<br><span>بالإنجاز.</span>">Celebrate the<br><span>work.</span></h2></div></div><div class="achievement-grid"><div class="achievement"><b>01</b><strong data-en="Top Performer" data-ar="الأداء المتميز">Top Performer</strong><span data-en="Track leaderboard recognition" data-ar="تكريم متصدري المسارات">Track leaderboard recognition</span></div><div class="achievement"><b>02</b><strong data-en="Project Award" data-ar="جائزة مشروع">Project Award</strong><span data-en="Outstanding student project" data-ar="مشروع طلابي متميز">Outstanding student project</span></div><div class="achievement"><b>03</b><strong data-en="Community Lead" data-ar="قائد مجتمع">Community Lead</strong><span data-en="Leadership and contribution" data-ar="القيادة والمشاركة">Leadership and contribution</span></div></div></section>
 
-        <div class="hero-meta">
-          <span><i></i><span data-en="Student-led" data-ar="بقيادة الطلاب">Student-led</span></span>
-          <span><i></i><span data-en="Practical learning" data-ar="تعلم عملي">Practical learning</span></span>
-          <span><i></i><span data-en="Build real things" data-ar="نبني حاجات حقيقية">Build real things</span></span>
-        </div>
-      </div>
+<section id="news" class="section page-section"><div class="section-no">07 / NEWS</div><div class="section-head"><div><span class="kicker" data-en="LATEST FROM ATTL" data-ar="آخر أخبار ATTL">LATEST FROM ATTL</span><h2 data-en="What’s<br><span>happening.</span>" data-ar="إيه اللي<br><span>بيحصل؟</span>">What’s<br><span>happening.</span></h2></div></div><div class="news-grid"><article class="news"><small>ATTL / 01</small><h3 data-en="TechLab is getting started." data-ar="TechLab بيبدأ رحلته.">TechLab is getting started.</h3><p data-en="A student-led lab for practical technology learning and innovation." data-ar="معمل طلابي للتعلم العملي والابتكار التكنولوجي.">A student-led lab for practical technology learning and innovation.</p></article><article class="news"><small>ATTL / 02</small><h3 data-en="Tracks are open for exploration." data-ar="المسارات جاهزة للاستكشاف.">Tracks are open for exploration.</h3><p data-en="Explore AI, software, web, cybersecurity, design, robotics and innovation." data-ar="استكشف الذكاء الاصطناعي والبرمجيات والويب والسيبراني والتصميم والروبوتات والابتكار.">Explore AI, software, web, cybersecurity, design, robotics and innovation.</p></article><article class="news"><small>ATTL / 03</small><h3 data-en="Build. Share. Lead." data-ar="ابنِ. شارك. قُد.">Build. Share. Lead.</h3><p data-en="The community grows through projects, teamwork and knowledge sharing." data-ar="المجتمع بيكبر بالمشاريع والعمل الجماعي ومشاركة المعرفة.">The community grows through projects, teamwork and knowledge sharing.</p></article></div></section>
 
-      <div class="hero-logo-card">
-        <div class="glass-shine"></div>
-        <div class="hero-attl">ATTL</div>
-        <div class="hero-wordmark">AL THAGHR <span>TECHLAB</span></div>
-        <div class="logo-caption">
-          <strong>ATTL</strong>
-          <span data-en="TECHNOLOGY • INNOVATION • IMPACT" data-ar="تكنولوجيا • ابتكار • تأثير">TECHNOLOGY • INNOVATION • IMPACT</span>
-        </div>
-      </div>
-    </section>
+<section id="join" class="join page-section"><span class="eyebrow">READY TO BUILD?</span><h2 data-en="Become part of<br><span>AL THAGHR TECHLAB.</span>" data-ar="خليك جزء من<br><span>AL THAGHR TECHLAB.</span>">Become part of<br><span>AL THAGHR TECHLAB.</span></h2><div class="actions"><a class="btn white" href="mailto:attl@example.com" data-en="Join the Community →" data-ar="انضم إلى المجتمع ←">Join the Community →</a><a class="btn outline-white" href="#contact" data-en="Contact Us" data-ar="تواصل معنا">Contact Us</a></div></section>
 
-    <section class="stats glass-strip">
-      <div><strong>07</strong><span data-en="Technology Tracks" data-ar="مسارات تقنية">Technology Tracks</span></div>
-      <div><strong>∞</strong><span data-en="Ideas to Build" data-ar="أفكار قابلة للتنفيذ">Ideas to Build</span></div>
-      <div><strong>01</strong><span data-en="Student Community" data-ar="مجتمع طلابي">Student Community</span></div>
-      <div><strong>100%</strong><span data-en="Practical Learning" data-ar="تعلم عملي">Practical Learning</span></div>
-    </section>
-
-    <section id="about" class="section about">
-      <div class="section-label">01 / <span data-en="ABOUT" data-ar="عنّا">ABOUT</span></div>
-      <div>
-        <div class="mini-kicker" data-en="THE IDEA BEHIND ATTL" data-ar="فكرة ATTL">THE IDEA BEHIND ATTL</div>
-        <h2 data-en="Where students<br><span>build technology.</span>" data-ar="هنا الطلاب<br><span>بيصنعوا التكنولوجيا.</span>">Where students<br><span>build technology.</span></h2>
-        <p data-en="AL THAGHR TECHLAB is a school technology community focused on practical learning, collaboration, innovation and student-led projects."
-           data-ar="AL THAGHR TECHLAB هو مجتمع تكنولوجي مدرسي بيركز على التعلم العملي، التعاون، الابتكار والمشاريع اللي بيقودها الطلاب.">
-          AL THAGHR TECHLAB is a school technology community focused on practical learning, collaboration, innovation and student-led projects.
-        </p>
-      </div>
-    </section>
-
-    <section id="tracks" class="section">
-      <div class="section-label">02 / <span data-en="TRACKS" data-ar="المسارات">TRACKS</span></div>
-      <div class="section-heading">
-        <div>
-          <div class="mini-kicker" data-en="FIND YOUR LANE" data-ar="اختار مسارك">FIND YOUR LANE</div>
-          <h2 data-en="Choose your<br><span>technology.</span>" data-ar="اختار<br><span>مجالك التقني.</span>">Choose your<br><span>technology.</span></h2>
-        </div>
-        <p data-en="Start with one track. Build across all of them." data-ar="ابدأ بمسار واحد، وابني خبرتك خطوة بخطوة عبر باقي المسارات.">Start with one track. Build across all of them.</p>
-      </div>
-
-      <div class="tracks-grid">
-        <article class="track"><div class="track-top"><b>01</b><span>AI</span></div><h3 data-en="AI & ML" data-ar="الذكاء الاصطناعي">AI & ML</h3><p data-en="Artificial Intelligence, Machine Learning and LLMs." data-ar="الذكاء الاصطناعي وتعلم الآلة والنماذج اللغوية الكبيرة.">Artificial Intelligence, Machine Learning and LLMs.</p><span class="track-arrow">↗</span></article>
-        <article class="track"><div class="track-top"><b>02</b><span>CODE</span></div><h3 data-en="Software" data-ar="البرمجيات">Software</h3><p data-en="Programming, algorithms and software engineering." data-ar="البرمجة والخوارزميات وهندسة البرمجيات.">Programming, algorithms and software engineering.</p><span class="track-arrow">↗</span></article>
-        <article class="track"><div class="track-top"><b>03</b><span>WEB</span></div><h3 data-en="Web" data-ar="تطوير الويب">Web</h3><p data-en="Frontend, backend and full-stack development." data-ar="تطوير الواجهات والخلفيات وتطوير الويب المتكامل.">Frontend, backend and full-stack development.</p><span class="track-arrow">↗</span></article>
-        <article class="track"><div class="track-top"><b>04</b><span>SEC</span></div><h3 data-en="Cybersecurity" data-ar="الأمن السيبراني">Cybersecurity</h3><p data-en="Security, networking and digital awareness." data-ar="الأمن والشبكات والتوعية الرقمية.">Security, networking and digital awareness.</p><span class="track-arrow">↗</span></article>
-        <article class="track"><div class="track-top"><b>05</b><span>UX</span></div><h3 data-en="Design" data-ar="التصميم">Design</h3><p data-en="UI/UX, graphic design and digital media." data-ar="تصميم UI/UX والتصميم الجرافيكي والإعلام الرقمي.">UI/UX, graphic design and digital media.</p><span class="track-arrow">↗</span></article>
-        <article class="track"><div class="track-top"><b>06</b><span>IOT</span></div><h3 data-en="Robotics" data-ar="الروبوتات">Robotics</h3><p data-en="Robotics, electronics, IoT and automation." data-ar="الروبوتات والإلكترونيات وإنترنت الأشياء والأتمتة.">Robotics, electronics, IoT and automation.</p><span class="track-arrow">↗</span></article>
-        <article class="track track-wide"><div class="track-top"><b>07</b><span>IDEAS</span></div><h3 data-en="Innovation" data-ar="الابتكار">Innovation</h3><p data-en="Ideas, entrepreneurship and real-world solutions." data-ar="الأفكار وريادة الأعمال والحلول الواقعية.">Ideas, entrepreneurship and real-world solutions.</p><span class="track-arrow">↗</span></article>
-      </div>
-    </section>
-
-    <section id="projects" class="section dark-section">
-      <div class="section-label blue-label">03 / <span data-en="PROJECTS" data-ar="المشاريع">PROJECTS</span></div>
-      <div class="section-heading">
-        <div>
-          <div class="mini-kicker" data-en="FROM IDEA TO IMPACT" data-ar="من الفكرة للتأثير">FROM IDEA TO IMPACT</div>
-          <h2 data-en="Ideas become<br><span>real projects.</span>" data-ar="الأفكار بتتحول لـ<br><span>مشاريع حقيقية.</span>">Ideas become<br><span>real projects.</span></h2>
-        </div>
-        <p data-en="Project showcase, team workspaces, challenges and Demo Days." data-ar="عرض المشاريع، مساحات عمل الفرق، التحديات وأيام العرض.">Project showcase, team workspaces, challenges and Demo Days.</p>
-      </div>
-      <div class="project-placeholder">
-        <div class="project-grid"></div>
-        <span data-en="PROJECT SHOWCASE" data-ar="معرض المشاريع">PROJECT SHOWCASE</span>
-        <strong data-en="Coming in V2" data-ar="قادم في الإصدار الثاني">Coming in V2</strong>
-        <small data-en="Build something worth showing." data-ar="ابنِ حاجة تستاهل تتعرض.">Build something worth showing.</small>
-      </div>
-    </section>
-
-    <section id="events" class="section">
-      <div class="section-label">04 / <span data-en="EVENTS" data-ar="الفعاليات">EVENTS</span></div>
-      <div class="event-card glass-card">
-        <div>
-          <span class="event-tag" data-en="TECHLAB" data-ar="TECHLAB">TECHLAB</span>
-          <h2 data-en="Trainings. Workshops.<br>Challenges." data-ar="تدريبات. ورش عمل.<br>تحديات.">Trainings. Workshops.<br>Challenges.</h2>
-          <p data-en="One place for registration, schedules, attendance, tasks and certificates."
-             data-ar="مكان واحد للتسجيل والجداول والحضور والمهام والشهادات.">
-            One place for registration, schedules, attendance, tasks and certificates.
-          </p>
-        </div>
-        <a class="btn primary" href="#join" data-en="View Events" data-ar="عرض الفعاليات">View Events</a>
-      </div>
-    </section>
-
-    <section id="join" class="join">
-      <div class="join-glow"></div>
-      <span class="eyebrow" data-en="READY TO BUILD?" data-ar="مستعد للبناء؟">READY TO BUILD?</span>
-      <h2 data-en="Become part of<br><span>AL THAGHR TECHLAB.</span>" data-ar="خليك جزء من<br><span>AL THAGHR TECHLAB.</span>">Become part of<br><span>AL THAGHR TECHLAB.</span></h2>
-      <a class="btn white" href="#" data-en="Join the Community →" data-ar="انضم إلى المجتمع ←">Join the Community →</a>
-    </section>
-  </main>
-
-  <footer>
-    <div class="footer-brand">
-      <div class="footer-mark">ATTL</div>
-      <div>
-        <strong>AL THAGHR TECHLAB</strong>
-        <p data-en="Student Technology & Innovation Lab" data-ar="معمل التكنولوجيا والابتكار الطلابي">Student Technology & Innovation Lab</p>
-      </div>
-    </div>
-    <p>© <span id="year"></span> AL THAGHR TECHLAB</p>
-  </footer>
-
-  <script src="script.js"></script>
-</body>
-</html>
+<section id="contact" class="section contact page-section"><div><span class="kicker">CONTACT</span><h2 data-en="Let’s build<br><span>together.</span>" data-ar="تعال نبني<br><span>سوا.</span>">Let’s build<br><span>together.</span></h2></div><div class="contact-box"><p data-en="For partnerships, training, events or student collaboration, reach out to ATTL." data-ar="للشراكات أو التدريب أو الفعاليات أو التعاون الطلابي، تواصل مع ATTL.">For partnerships, training, events or student collaboration, reach out to ATTL.</p><a href="mailto:attl@example.com">attl@example.com</a></div></section>
+</main>
+<footer><div><strong>ATTL</strong><span>AL THAGHR TECHLAB</span></div><p>© <span id="year"></span> ATTL. <span data-en="Student Technology & Innovation Lab" data-ar="معمل التكنولوجيا والابتكار الطلابي">Student Technology & Innovation Lab</span></p><a href="#home">↑</a></footer>
+<script src="script.js"></script>
+</body></html>
